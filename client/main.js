@@ -4,6 +4,7 @@
 
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
+const { id } = require('../ID.json')
 const url = require('url');
 const DiscordRPC = require('../');
 require('dotenv').config()
@@ -45,7 +46,7 @@ app.on('activate', () => {
 });
 
 // don't change the client id if you want this example to work
-const clientId = "335050699920375808";
+const clientId = id;
 
 // only needed for discord allowing spectate, join, ask to join
 DiscordRPC.register(clientId);
