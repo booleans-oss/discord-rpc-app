@@ -31,6 +31,15 @@
 - 1.0.x, e.g. `v1.0.2-beta.15`: https://github.com/booleans-oss/discord-rpc-app/
 - `next` release: https://github.com/booleans-oss/discord-rpc-app/
 
+## Prerequisites ‼️
+To be able to have a cool image, you will need to create your Discord Rich Presence Application. 
+### 1. Create your App
+Go on [Discord Developer Portal](https://discord.com/developers/applications) to create your application. 
+The name of the application is important as it would be the name of the game you will be playing with the Rich Presence.
+You will see ``Client ID`` which is the ID you will use in a moment.
+
+### 2. Set up your Presence
+You will then go in the tab **Rich Presence -> Art Assets**. It is there that you will upload the pictures you want to display. The pictures need to be at least 512x512. **Important:** Remember the name of the pictures as it is the only way to know which one to display. After that you are done with Discord Application.
 ## Deployment 🌱
 
 ### 1. Install the repo
@@ -45,7 +54,10 @@ Install using [npm](https://docs.npmjs.com/getting-started/what-is-npm):
 
 or using [yarn](https://yarnpkg.com);
 
-### 3. Starting the project
+### 3. Edit the ID.json file
+Change the ``id`` inside the ID.json file with your Application Client ID you have created.
+
+### 4. Starting the project
 Using internal implemented script
 
     npm run start
@@ -54,12 +66,8 @@ or using [electron](https://www.electronjs.org);
 
     electron client/main.js
 
-
-### 4. Enjoy :smile:
-
-## Configuration 💡
-
-There isn't any configuration to do. The credentials need to be done on your side. You can modify the application as you want.
+### 5. Enjoy :smile:
+The codes for the images are the name you have given them on the Discord Application Portal. 
 
 -----------
 ## Development
