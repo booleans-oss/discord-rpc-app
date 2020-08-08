@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RPC by Booleans with 💜</title>
+    <link rel=stylesheet href=style.css />
+  </head>
+  <body>
+    <h1>RPC by Booleans with 💜</h1>
+    <label>Titre</label>
+    <input type="text" id="titre_input">
+    <h3 id=titre_render></h3>
+    <br>
+    <label>Détails</label>
+    <input type="text" id="details_input">
+    <h3 id=details_render></h3>
+    <br>
+    <label>Image code</label>
+    <input type="text" id="image_bigURL_input">
+    <br>
+    <label>Image text</label>
+    <input type="text" id="image_bigTEXT_input">
+    <h3 id=image_bigTEXT_render></h3>
+    <br>
+    <label>Image code</label>
+    <input type="text" id="image_smallURL_input">
+    <br>
+    <label>Image text</label>
+    <input type="text" id="image_smallTEXT_input">
+    <h3 id=image_smallTEXT_render></h3>
+    <br>
+    <input type="submit" value="Update" onclick="update()">
+
+    <script src=renderer.js></script>
+  </body>
+</html>
