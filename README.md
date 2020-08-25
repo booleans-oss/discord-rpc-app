@@ -1,7 +1,7 @@
 <div align="center">
   <img alt="ReDoc logo" src="https://www.pngfind.com/pngs/b/102-1026997_jeffy-discordjs-discord-js-logo-hd-png-download.png" width="400px" />
 
-  **Discord.js Rich Presence App**
+  **Discord.js Rich Presence App by Boooleans**
 
   [![Build Status](https://travis-ci.org/Redocly/redoc.svg?branch=master)](https://github.com/booleans-oss/discord-rpc-app/) [![Coverage Status](https://coveralls.io/repos/Redocly/redoc/badge.svg?branch=master&service=github)](https://github.com/booleans-oss/discord-rpc-app/) [![dependencies Status](https://david-dm.org/Redocly/redoc/status.svg)](https://github.com/booleans-oss/discord-rpc-app/) [![devDependencies Status](https://david-dm.org/Redocly/redoc/dev-status.svg)](https://github.com/booleans-oss/discord-rpc-app/) [![npm](http://img.shields.io/npm/v/redoc.svg)](https://www.npmjs.com/package/discord.js) [![License](https://img.shields.io/npm/l/redoc.svg)](https://github.com/booleans-oss/discord-rpc-app/blob/master/LICENSE)
 
