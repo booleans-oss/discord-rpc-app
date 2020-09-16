@@ -1,36 +1,56 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>RPC by Booleans with 💜</title>
-    <link rel=stylesheet href=style.css />
-  </head>
-  <body>
-    <h1>RPC by Booleans with 💜</h1>
-    <label>Titre</label>
-    <input type="text" id="titre_input">
-    <h3 id=titre_render></h3>
-    <br>
-    <label>Détails</label>
-    <input type="text" id="details_input">
-    <h3 id=details_render></h3>
-    <br>
-    <label>Image code</label>
-    <input type="text" id="image_bigURL_input">
-    <br>
-    <label>Image text</label>
-    <input type="text" id="image_bigTEXT_input">
-    <h3 id=image_bigTEXT_render></h3>
-    <br>
-    <label>Image code</label>
-    <input type="text" id="image_smallURL_input">
-    <br>
-    <label>Image text</label>
-    <input type="text" id="image_smallTEXT_input">
-    <h3 id=image_smallTEXT_render></h3>
-    <br>
-    <input type="submit" value="Update" onclick="update()">
 
-    <script src=renderer.js></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+
+  <title>Hash</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Scripts -->
+  <script>
+    delete module.exports
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="./renderer.js" charset="utf-8"></script>
+
+</head>
+
+<body><br>
+  <div class='container'>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Titre</label>
+      <input id="titre_input" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="The title of your game">
+      <small id="emailHelp" class="form-text text-muted">The title of your Rich Presence..</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Détails</label>
+      <input id="details_input" type="password" class="form-control" id="exampleInputPassword1" placeholder="The details of your game">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Big Image code</label>
+      <input id="image_bigURL_input" type="password" class="form-control" id="exampleInputPassword1" placeholder="The code in Art Assets">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Big Image Text</label>
+      <input id="image_bigTEXT_input" type="password" class="form-control" id="exampleInputPassword1" placeholder="The text when hovering">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Small Image Code</label>
+      <input id="image_smallURL_input" type="password" class="form-control" id="exampleInputPassword1" placeholder="The code in Art Assets">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Small Image Text</label>
+      <input type="password" id="image_smallTEXT_input" class="form-control" id="exampleInputPassword1" placeholder="The text when hovering">
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="update()">Udpate</button>
+  </form>
+</div>
+</body>
+
 </html>
